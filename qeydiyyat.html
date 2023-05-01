@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="melumat">
+        <h1>Lutfen formu eksiksiz doldurunuz.</h1> 
+        <h2>Hesap Bilgileriniz</h2>
+        <table>
+         <tr><th> Kullanici adi : </th>
+             <td><label for="username"></label>
+              <input type="text"id="username" placeholder="Adinizi yazin"></td>      
+             
+             
+         </tr>
+         <tr>
+             <td>Eposta :</td>
+             <td><label for="Eposta"></label>
+             <input type="email" id="eposta" placeholder="Mailini gir"></td>
+         </tr>
+         <tr>
+            <td>Parola :</td> 
+            <td><label for="parol"></label>
+         <input type="password" id="parol" placeholder="Shifrenizi girin"></td>
+         </tr>
+        </table>
+        <h2>Kisisel Bilgileriniz</h2>
+        <table>
+         <tr>
+             <td>Adiniz:</td>
+             <td><label for="adiniz"></label>
+                 <input type="name" id="Adiniz" placeholder="Adiniz"> </td>
+         </tr>
+         <tr>
+             <td>Soyadiniz:</td>
+             <td><label for="Soyadiniz"></label>
+                 <input type="surname" id="Soyadiniz" placeholder="Soyadiniz"></td>
+         </tr>
+         <tr>
+             <td>Sheher:</td>
+             <td><label for="cities"></label>
+                 <select name="Sheher" id="cities">
+                     <option value="10">Baki</option>
+                     <option value="08">Balaken</option>
+                     <option value="11">Quba</option>
+                     <option value="12">Gence</option>
+                </select> </td>
+         </tr>
+         <tr>
+             <td>Cinsiyyet:</td>
+             <td><label for="radio">qadin</label >
+             <input type="radio" id="qadin" name="gender" >
+             <label for="kishi">kishi</label>
+             <input type="radio" id="kishi"name="gender" >
+             </td>
+         
+         </tr>
+
+         <tr>
+             <td>Dogum tarixi:</td>
+             <td><label for="birthday"></label>
+             <input type="date" id="birthday" name="birthday"></td>
+         </tr>
+         <tr>
+          
+             <td>
+              <button type="submit">Kaydet</button>
+              <button type="reset" name="melumat">Temizle</button>
+             </td>
+         </tr>
+         
+         
+        </table>
+     </form> 
+     <a href="index.html">Back to Homepage</a>
+</body>
+</html>
