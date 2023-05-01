@@ -8,42 +8,42 @@
 </head>
 <body>
     <form action="melumat">
-        <h1>Lutfen formu eksiksiz doldurunuz.</h1> 
-        <h2>Hesap Bilgileriniz</h2>
+        <h1>You fill out the form completely.</h1> 
+        <h2>Your Account Information</h2>
         <table>
-         <tr><th> Kullanici adi : </th>
+         <tr><th> Username : </th>
              <td><label for="username"></label>
-              <input type="text"id="username" placeholder="Adinizi yazin"></td>      
+              <input type="text"id="username" placeholder="username"></td>      
              
              
          </tr>
          <tr>
-             <td>Eposta :</td>
-             <td><label for="Eposta"></label>
-             <input type="email" id="eposta" placeholder="Mailini gir"></td>
+             <th>Email :</th>
+             <td><label for="email"></label>
+             <input type="email" id="email" placeholder="email"></td>
          </tr>
          <tr>
-            <td>Parola :</td> 
-            <td><label for="parol"></label>
-         <input type="password" id="parol" placeholder="Shifrenizi girin"></td>
+            <th>Password :</th> 
+            <td><label for="password"></label>
+         <input type="password" id="parol" placeholder="password"></td>
          </tr>
         </table>
-        <h2>Kisisel Bilgileriniz</h2>
+        <h2>Your Personal Information</h2>
         <table>
          <tr>
-             <td>Adiniz:</td>
+             <th>Name:</th>
              <td><label for="adiniz"></label>
-                 <input type="name" id="Adiniz" placeholder="Adiniz"> </td>
+                 <input type="name" id="Name" placeholder="name"> </td>
          </tr>
          <tr>
-             <td>Soyadiniz:</td>
+             <th>Surname:</th>
              <td><label for="Soyadiniz"></label>
-                 <input type="surname" id="Soyadiniz" placeholder="Soyadiniz"></td>
+                 <input type="surname" id="Surname" placeholder="Surname"></td>
          </tr>
          <tr>
-             <td>Sheher:</td>
+             <th>Cities:</th>
              <td><label for="cities"></label>
-                 <select name="Sheher" id="cities">
+                 <select name="cities" id="cities">
                      <option value="10">Baki</option>
                      <option value="08">Balaken</option>
                      <option value="11">Quba</option>
@@ -51,25 +51,25 @@
                 </select> </td>
          </tr>
          <tr>
-             <td>Cinsiyyet:</td>
-             <td><label for="radio">qadin</label >
-             <input type="radio" id="qadin" name="gender" >
-             <label for="kishi">kishi</label>
-             <input type="radio" id="kishi"name="gender" >
+             <th>Gender:</th>
+             <td><label for="radio">women</label >
+             <input type="radio" id="women" name="gender" >
+             <label for="men">men</label>
+             <input type="radio" id="men"name="gender" >
              </td>
          
          </tr>
 
          <tr>
-             <td>Dogum tarixi:</td>
+             <th>Birthday:</th>
              <td><label for="birthday"></label>
              <input type="date" id="birthday" name="birthday"></td>
          </tr>
          <tr>
           
              <td>
-              <button type="submit">Kaydet</button>
-              <button type="reset" name="melumat">Temizle</button>
+              <button type="submit">save</button>
+              <button type="reset" name="melumat">clear</button>
              </td>
          </tr>
          
